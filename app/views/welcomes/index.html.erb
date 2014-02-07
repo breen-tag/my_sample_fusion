@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>My First chart using PowerCharts XT </title>
+    <script type="text/javascript" src="/assets/LearningPowerChartsXT/MyFirstChart/Charts/FusionCharts.js">
+    </script>
+  </head>
+  <body>
+  Hello, My sample application with Sample conspiracy map implemented..!!
+  <%a = b = ""%>
+  <%@graph_bubbles.each do |bubble|
+       a  <<  "<set id='#{bubble.id}' x='#{bubble.x}' y='#{bubble.y}' name='#{bubble.name}' radius='#{bubble.radius}' shape='#{bubble.shape}' color='#{bubble.color}' />"
+  end%>
+
+  <%@graph_bubbles.each do |bubble|%>
+  <%bubble.bubble_connectors.each do |bubbleconnector|%>
+    <%bubbleconnector.graph_connector.bubble_connectors.each do |bub_conn|%>
+      <%b  <<  "<connector from='#{bub_conn.graph_connector.from}' to='#{bub_conn.graph_connector.to}' color='#{bub_conn.graph_connector.color}' strength='#{bub_conn.graph_connector.strength}' arrowAtStart='0' arrowAtEnd='0' alpha='100' label=''/>"%>
+    <%end%>
+  <%end%>
+<%end%>
+
+    <div id="chartContainer">PowerCharts XT will load here!</div>
+    <script type="text/javascript">
+
+      //var myChart = new FusionCharts( "/assets/LearningPowerChartsXT/MyFirstChart/Charts/Spline.swf", 
+      //"myChartId", "400", "300", "0" );
+      var myChart = new FusionCharts( "/assets/LearningPowerChartsXT/MyFirstChart/Charts/DragNode.swf", 
+      "myChartId", "900", "600", "0" );
+      myChart.setXMLData("<chart constrength='2' arrowAtStart='0' arrowAtEnd='1' conDashed='0' conDashLen='5' conDashGap='5' conAlpha='100' conColor='FF5904' stdThickness='2' catVerticalLineDashGap='2' catVerticalLineDashLen='4' catVerticalLineDashed='0' catVerticalLineAlpha='45' catVerticalLineThickness='1' catVerticalLineColor='7B7D6D' catFontColor='60634E' catFontSize='10' catFont='Verdana' canvasBottomMargin='-1' canvasTopMargin='-1' canvasRightMargin='-1' canvasLeftMargin='-1' unescapeLinks='1' exportDataCaptureCallback='FC_ExportDataReady' exportDialogPBColor='E2E2E2' exportDialogFontColor='666666' exportDialogBorderColor='999999' exportDialogColor='FFFFFF' exportDialogMessage='Capturing Data : ' showExportDialog='1' exportCallback='FC_Exported' exportParameters='' exportFileName='FusionCharts' exportHandler='' exportTargetWindow='_self' exportAction='download' exportAtClient='0' exportFormats='JPG=Save as JPEG Image|PNG=Save as PNG Image|PDF=Save as PDF' exportShowMenuItem='0' exportEnabled='0' showVLineLabelBorder='1' outCnvBaseFontColor='60634E' outCnvBaseFontSize='10' outCnvBaseFont='Verdana' baseFontColor='60634E' baseFontSize='10' baseFont='Verdana' seriesNameInToolTip='1' showToolTipShadow='0' toolTipSepChar=', ' toolTipBorderColor='545454' toolTipBgColor='FFFFFF' showToolTip='1' logoScale='100' logoLink='' logoAlpha='100' logoPosition='TL' logoURL='' bgSWFAlpha='100' bgSWF='' exportDataFormattedVal='0' exportDataSeparator=',' exportDataMenuItemLabel='Copy data to clipboard' showExportDataMenuItem='0' showPrintMenuItem='1' aboutMenuItemLink='n-http://www.fusioncharts.com/?BS=AboutMenuLink' aboutMenuItemLabel='About FusionCharts' showFCMenuItem='1' yAxisValueDecimals='2' forceDecimals='0' decimals='2' inThousandSeparator='' inDecimalSeparator='' thousandSeparator=',' decimalSeparator='.' numberSuffix='' numberPrefix='' numberScaleValue='1000,1000' numberScaleUnit='K,M' defaultNumberScale='' formatNumberScale='1' formatNumber='1' negativeColor='ff0000' nodeScale='1' use3DLighting='1' plotBorderAlpha='95' plotBorderThickness='1' plotBorderColor='666666' showPlotBorder='1' plotFillAlpha='100' alternateHGridAlpha='35' alternateHGridColor='D8DCC5' showAlternateHGridColor='1' zeroPlaneAlpha='45' zeroPlaneThickness='1' zeroPlaneColor='7B7D6D' showZeroPlane='1' divLineDashGap='2' divLineDashLen='4' divLineIsDashed='0' divLineAlpha='45' divLineThickness='1' divLineColor='7B7D6D' numDivLines='0' reverseLegend='0' legendScrollBtnColor='545454' legendScrollBarColor='545454' legendScrollBgColor='CCCCCC' legendAllowDrag='0' legendShadow='1' legendBgAlpha='100' legendBgColor='ffffff' legendBorderAlpha='100' legendBorderThickness='1' legendBorderColor='545454' legendMarkerCircle='0' legendCaption='' legendPosition='BOTTOM' showLegend='1' canvasBorderAlpha='100' canvasBorderThickness='2' canvasBorderColor='545454' canvasBgAngle='0' canvasBgRatio='' canvasBgAlpha='100' canvasBgColor='FFFFFF' borderAlpha='50' borderThickness='1' borderColor='545454' showBorder='1' bgAngle='270' bgRatio='0,100' bgAlpha='60,50' bgColor='CFD4BE,F3F5DD' btnTextColor='000000' btnPadding='5' formMethod='POST' formAction='/demos/gallery/DataHandlerModified.asp'  formTarget='dragNodeXMLFrame' formBtnBgColor='FFFFFF' formBtnBorderColor='CBCBCB' formBtnTitle='Submit' formBtnWidth='80' showFormBtn='0' enableLink='0' viewMode='0' clickURL='' yAxisNameWidth='undefined' rotateYAxisName='1' adjustDiv='1' yAxisValuesStep='1' showDivLineValues='0' showLimits='0' showYAxisValues='0' staggerLines='2' labelStep='1' slantLabels='0' rotateLabels='' labelDisplay='WRAP' showLabels='0' defaultAnimation='1' animation='1' xAxisMaxValue='100' xAxisMinValue='0' yAxisMaxValue='100' yAxisMinValue='0' setAdaptiveYMin='0' yAxisName='' xAxisName='' subCaption='' caption='Project Plan for Construction of a House (time duration in weeks)' chartBottomMargin='15' chartTopMargin='15' chartRightMargin='15' chartLeftMargin='15' legendPadding='6' labelPadding='3' yAxisValuesPadding='2' yAxisNamePadding='5' xAxisNamePadding='5' captionPadding='10' paletteColors='' palette='2'>"+
+
+        "<categories></categories>"+
+
+        "<dataSet id='1' seriesName='DS1' ><%=a.html_safe%></dataSet>"+
+
+        "<dataSet id='2' seriesName='DS2' ><set id='8' x='59.1929824561403' y='28.6515513126492' name='G' radius='20' shape='CIRCLE' color='0059FF' /><set id='9' x='70.640350877193' y='08.3174224343675' name='H' radius='20' shape='CIRCLE' color='0059FF' /><set id='10' x='82.2543859649123' y='40.3341288782816' name='M' radius='20' shape='CIRCLE' color='0059FF' /><set id='11' x='44.6578947368421' y='81.8615751789976' name='I' radius='20' shape='CIRCLE' color='0059FF' /><set id='12' x='70.280701754386' y='82.7684964200477' name='J' radius='20' shape='CIRCLE' color='0059FF' /><set id='13' x='79.0175438596491' y='94.7494033412888' name='L' radius='20' shape='CIRCLE' color='0059FF' /><set id='14' x='87.9210526315789' y='82.7684964200477' name='N' radius='20' shape='CIRCLE' color='0059FF' /><set id='15' x='80.5877192982456' y='70.5250596658711' name='K' radius='20' shape='CIRCLE' color='0059FF' /></dataSet>"+
+
+        "<connectors stdThickness='2' ><%=b.html_safe%></connectors>"+
+
+        "</chart>");
+      myChart.render("chartContainer");
+
+    
+    </script>
+  </body>
+</html>

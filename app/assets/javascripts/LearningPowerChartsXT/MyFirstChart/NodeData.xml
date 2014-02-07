@@ -1,0 +1,51 @@
+<chart constrength='2' arrowAtStart='0' arrowAtEnd='1' conDashed='0' conDashLen='5' conDashGap='5' conAlpha='100' conColor='FF5904' stdThickness='2' catVerticalLineDashGap='2' catVerticalLineDashLen='4' catVerticalLineDashed='0' catVerticalLineAlpha='45' catVerticalLineThickness='1' catVerticalLineColor='7B7D6D' catFontColor='60634E' catFontSize='10' catFont='Verdana' canvasBottomMargin='-1' canvasTopMargin='-1' canvasRightMargin='-1' canvasLeftMargin='-1' unescapeLinks='1' exportDataCaptureCallback='FC_ExportDataReady' exportDialogPBColor='E2E2E2' exportDialogFontColor='666666' exportDialogBorderColor='999999' exportDialogColor='FFFFFF' exportDialogMessage='Capturing Data : ' showExportDialog='1' exportCallback='FC_Exported' exportParameters='' exportFileName='FusionCharts' exportHandler='' exportTargetWindow='_self' exportAction='download' exportAtClient='0' exportFormats='JPG=Save as JPEG Image|PNG=Save as PNG Image|PDF=Save as PDF' exportShowMenuItem='0' exportEnabled='0' showVLineLabelBorder='1' outCnvBaseFontColor='60634E' outCnvBaseFontSize='10' outCnvBaseFont='Verdana' baseFontColor='60634E' baseFontSize='10' baseFont='Verdana' seriesNameInToolTip='1' showToolTipShadow='0' toolTipSepChar=', ' toolTipBorderColor='545454' toolTipBgColor='FFFFFF' showToolTip='1' logoScale='100' logoLink='' logoAlpha='100' logoPosition='TL' logoURL='' bgSWFAlpha='100' bgSWF='' exportDataFormattedVal='0' exportDataSeparator=',' exportDataMenuItemLabel='Copy data to clipboard' showExportDataMenuItem='0' showPrintMenuItem='1' aboutMenuItemLink='n-http://www.fusioncharts.com/?BS=AboutMenuLink' aboutMenuItemLabel='About FusionCharts' showFCMenuItem='1' yAxisValueDecimals='2' forceDecimals='0' decimals='2' inThousandSeparator='' inDecimalSeparator='' thousandSeparator=',' decimalSeparator='.' numberSuffix='' numberPrefix='' numberScaleValue='1000,1000' numberScaleUnit='K,M' defaultNumberScale='' formatNumberScale='1' formatNumber='1' negativeColor='ff0000' nodeScale='1' use3DLighting='1' plotBorderAlpha='95' plotBorderThickness='1' plotBorderColor='666666' showPlotBorder='1' plotFillAlpha='100' alternateHGridAlpha='35' alternateHGridColor='D8DCC5' showAlternateHGridColor='1' zeroPlaneAlpha='45' zeroPlaneThickness='1' zeroPlaneColor='7B7D6D' showZeroPlane='1' divLineDashGap='2' divLineDashLen='4' divLineIsDashed='0' divLineAlpha='45' divLineThickness='1' divLineColor='7B7D6D' numDivLines='0' reverseLegend='0' legendScrollBtnColor='545454' legendScrollBarColor='545454' legendScrollBgColor='CCCCCC' legendAllowDrag='0' legendShadow='1' legendBgAlpha='100' legendBgColor='ffffff' legendBorderAlpha='100' legendBorderThickness='1' legendBorderColor='545454' legendMarkerCircle='0' legendCaption='' legendPosition='BOTTOM' showLegend='1' canvasBorderAlpha='100' canvasBorderThickness='2' canvasBorderColor='545454' canvasBgAngle='0' canvasBgRatio='' canvasBgAlpha='100' canvasBgColor='FFFFFF' borderAlpha='50' borderThickness='1' borderColor='545454' showBorder='1' bgAngle='270' bgRatio='0,100' bgAlpha='60,50' bgColor='CFD4BE,F3F5DD' btnTextColor='000000' btnPadding='5' formMethod='POST' formAction='/demos/gallery/DataHandlerModified.asp'  formTarget='dragNodeXMLFrame' formBtnBgColor='FFFFFF' formBtnBorderColor='CBCBCB' formBtnTitle='Submit' formBtnWidth='80' showFormBtn='0' enableLink='0' viewMode='0' clickURL='' yAxisNameWidth='undefined' rotateYAxisName='1' adjustDiv='1' yAxisValuesStep='1' showDivLineValues='0' showLimits='0' showYAxisValues='0' staggerLines='2' labelStep='1' slantLabels='0' rotateLabels='' labelDisplay='WRAP' showLabels='0' defaultAnimation='1' animation='1' xAxisMaxValue='100' xAxisMinValue='0' yAxisMaxValue='100' yAxisMinValue='0' setAdaptiveYMin='0' yAxisName='' xAxisName='' subCaption='' caption='Project Plan for Construction of a House (time duration in weeks)' chartBottomMargin='15' chartTopMargin='15' chartRightMargin='15' chartLeftMargin='15' legendPadding='6' labelPadding='3' yAxisValuesPadding='2' yAxisNamePadding='5' xAxisNamePadding='5' captionPadding='10' paletteColors='' palette='2'>
+<categories>
+</categories>
+<dataSet id='1' seriesName='DS1' >
+<set id='2' x='15.2873563218391' y='56.734693877551' name='Shawn Malone' radius='50' shape='CIRCLE' color='FFB272' />
+<set id='3' x='28.6491228070175' y='56.5751789976134' name='Haros' radius='20' shape='CIRCLE' color='FFB272' />
+<set id='4' x='42.2280701754386' y='56.3365155131265' name='Ocampo' radius='20' shape='CIRCLE' color='FFB272' />
+<set id='5' x='45.5175438596491' y='28.0668257756563' name='Banks' radius='20' shape='CIRCLE' color='FFB272' />
+<set id='6' x='56.640350877193' y='56.1575178997613' name='Reyes' radius='100' shape='CIRCLE' color='FFB272' />
+<set id='7' x='64.8070175438596' y='71.0620525059666' name='Burrell' radius='20' shape='CIRCLE' color='FFB272' />
+</dataSet>
+<dataSet id='2' seriesName='DS2' >
+<set id='8' x='59.1929824561403' y='28.6515513126492' name='G' radius='20' shape='CIRCLE' color='0059FF' />
+<set id='9' x='70.640350877193' y='08.3174224343675' name='H' radius='20' shape='CIRCLE' color='0059FF' />
+<set id='10' x='82.2543859649123' y='40.3341288782816' name='M' radius='20' shape='CIRCLE' color='0059FF' />
+<set id='11' x='44.6578947368421' y='81.8615751789976' name='I' radius='20' shape='CIRCLE' color='0059FF' />
+<set id='12' x='70.280701754386' y='82.7684964200477' name='J' radius='20' shape='CIRCLE' color='0059FF' />
+<set id='13' x='79.0175438596491' y='94.7494033412888' name='L' radius='20' shape='CIRCLE' color='0059FF' />
+<set id='14' x='87.9210526315789' y='82.7684964200477' name='N' radius='20' shape='CIRCLE' color='0059FF' />
+<set id='15' x='80.5877192982456' y='70.5250596658711' name='K' radius='20' shape='CIRCLE' color='0059FF' />
+<!-- <set id='1' x='4.02298850574713' y='57.1428571428571' name='Start' height='15' width='40' shape='RECTANGLE' color='AFD8F8' />
+<set id='16' x='95.9473684210526' y='59.2243436754177' name='Finish' height='15' width='40' shape='RECTANGLE' color='AFD8F8' /> 
+
+<set id='legend' x='47.8947368421053' y='9.54653937947494' name='' width='440' height='66' imageNode='1' imageURL='Resources/Legend.jpg' /> -->
+
+</dataSet>
+
+<connectors stdThickness='2' >
+
+<connector from='2' to='3' color='e79547' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='4'/>
+<connector from='3' to='4' color='e79547' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='10' />
+<connector from='4' to='5' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='6' />
+<connector from='4' to='6' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='4' />
+<connector from='4' to='11' color='e79547' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='7' />
+<connector from='5' to='8' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='7' />
+<connector from='6' to='9' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='9' />
+<connector from='9' to='10' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='2' />
+<connector from='6' to='7' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='5' />
+<connector from='11' to='12' color='e79547' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='8' />
+<connector from='7' to='12' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='' />
+<connector from='12' to='13' color='e79547' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='5' />
+<connector from='12' to='15' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='4' />
+<connector from='13' to='14' color='e79547' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='6' />
+<connector from='15' to='14' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='' />
+<connector from='1' to='2' color='e79547' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='2' />
+<connector from='8' to='9' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='' />
+<connector from='14' to='16' color='e79547' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='' />
+<connector from='10' to='16' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='' />
+<connector from='10' to='15' color='C0C0C0' strength='2' arrowAtStart='0' arrowAtEnd='0' alpha='100' label='' />
+</connectors>
+</chart>
