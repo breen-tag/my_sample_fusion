@@ -21,6 +21,7 @@ class WelcomesController < ApplicationController
 
   def added
     p "test added in branch1"
+    p "added in branch2"
   end
   
 end
