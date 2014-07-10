@@ -16,6 +16,7 @@ class WelcomesController < ApplicationController
   end
 
   def show
+    p "hello this is show page okay..?"
   end
 
   def added
