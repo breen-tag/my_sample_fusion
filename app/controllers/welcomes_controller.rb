@@ -20,6 +20,7 @@ class WelcomesController < ApplicationController
   end
 
   def added
+    p "test added in branch1"
   end
   
 end
