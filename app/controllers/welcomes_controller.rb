@@ -16,12 +16,5 @@ class WelcomesController < ApplicationController
   end
 
   def show
-    p "hello this is show page okay..?"
   end
-
-  def added
-    p "test added in branch1"
-    p "added in branch2"
-  end
-  
 end
