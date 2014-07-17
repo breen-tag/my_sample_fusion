@@ -1,0 +1,27 @@
+<h1>Videos#new</h1>
+<p>Find me in app/views/videos/new.html.erb</p>
+
+<%= form_for(@video, method: :post, :html => {:multipart => true, :class => 'styledform' }) do |f| %>
+
+<%#= f.error_messages %>
+
+<p>
+
+<%= f.label :video %><br />
+<%= f.file_field :video %><br />
+<%= f.label :image %><br />
+<%= f.file_field :image %><br />
+<%= f.label :document %><br />
+<%= f.file_field :document %><br />
+<%= f.label :audio %><br />
+<%= f.file_field :audio %><br />
+
+</p>
+
+<p>
+
+<%= f.submit %> or <%= link_to 'Cancel', videos_path %>
+
+</p>
+
+<% end %>

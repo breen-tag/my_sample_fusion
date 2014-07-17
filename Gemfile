@@ -27,6 +27,17 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+#For Video/image attachments starts
+# gem 'pothoven-attachment_fu', '~> 3.2.13'
+
+# gem 'tastebook-acts_as_state_machine', '~> 3.0.3'
+gem 'paperclip-ffmpeg', '~> 1.2.0'
+gem 'carrierwave'
+gem 'streamio-ffmpeg', '~> 1.0.0'
+
+# gem 'aasm'
+#For Video/image attachments ends
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

@@ -1,0 +1,20 @@
+Basic gems required to develop a Rails Project:
+
+1) Devise - Authentication
+2) Can::Can - Security among different users and their roles
+3) Bootstrap - Basic html templates to be displayed
+4) Rails Admin - To create admin section
+5) Authorize.net - To have bank transaction in the site
+#6) Omniauth - To login to our website based on different social providers
+7) Kaminari - A pagination plugin
+8) Haml - To generate effective view files
+9) resque - To run background jobs
+#10) Passenger - To Deploy our web application
+11) Sunspot Solr - To acheive search functionality very effectively
+12) CarrierWave - Uploading files
+
+
+Document It:
+
+
+AdminUser.create( email: "admin@admin.com", password: "password", password_confirmation: "password" )

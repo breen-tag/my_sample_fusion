@@ -1,4 +1,8 @@
 SampFushion::Application.routes.draw do
+  # get "videos/index"
+  # get "videos/show"
+  # get "videos/new"
+  resources :videos
   get "welcomes/index"
 
   get "welcomes/show"
@@ -54,7 +58,7 @@ SampFushion::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => 'welcomes#index'
+   root :to => 'videos#index'
 
   # See how all your routes lay out with "rake routes"
 

@@ -1,0 +1,14 @@
+<%= "Hello User!!"%>
+<ul>
+
+<% for video in @videos %>
+<li><b>Video:</b><%= video.video_file_name %> <%= link_to 'view', video_path(video) %></li>
+<li><b>Image:</b><%= image_tag(video.image.url(:small)) %> <%= link_to 'view', video_path(video)%></li>
+<li><b>Document:</b><%= video.document_file_name %><%= link_to 'view', video_path(video)%></li>
+<li><b>Audio:</b><%= video.audio_file_name %><%= link_to 'view', video_path(video) %></li><br /><br /><br />
+<% end %>
+
+</ul>
+
+
+<h2>Videos (<%= link_to 'Create new', new_video_path %>)</h2>
